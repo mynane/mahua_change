@@ -1,0 +1,15 @@
+body{
+	position:relative;
+	z-index:100px;
+}
+.mask_box{
+	position:fixed;
+	width:1920px;
+	height:1000px;
+	top:0;
+	left:0;
+	background:rgba(0,0,0,0.5) none repeat scroll !important; /*实现FF背景透明，文字不透明*/
+	background:#000; 
+	filter:Alpha(opacity=50);/*实现IE背景透明*/ 
+	z-index:1000;
+}
